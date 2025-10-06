@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Student Travel Planner</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+<h1>Student Travel Planner</h1>
+<form id="plannerForm">
+<label>Origin<br><input name="origin" required></label>
+<label>Destination<br><input name="destination" required></label>
+<label>Start date<br><input type="date" name="startDate" required></label>
+<label>Duration (days)<br><input type="number" name="duration" min="1" value="3"></label>
+<label>Budget (USD)<br><input type="number" name="budget" min="0" step="1"></label>
+
+
+<fieldset>
+<legend>Interests</legend>
+<label><input type="checkbox" name="interests" value="food"> Food</label>
+<label><input type="checkbox" name="interests" value="sightseeing" checked> Sightseeing</label>
+<label><input type="checkbox" name="interests" value="nature"> Nature</label>
+<label><input type="checkbox" name="interests" value="nightlife"> Nightlife</label>
+</fieldset>
+
+
+<label>Preferences (optional)<br><textarea name="preferences" rows="2"></textarea></label>
+
+
+<button type="submit">Generate Itinerary</button>
+</form>
+
+
+<section id="output"></section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

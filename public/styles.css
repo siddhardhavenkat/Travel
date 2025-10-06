@@ -1,0 +1,8 @@
+body { font-family: system-ui, Arial, sans-serif; padding: 20px; background: #f7f7f9; }
+main { max-width: 800px; margin: 0 auto; background: #fff; padding: 18px; border-radius: 8px; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+label { display:block; margin-bottom:8px; }
+input, textarea { width:100%; padding:8px; margin-top:4px; }
+fieldset { margin:10px 0; }
+button { padding:10px 14px; border:none; background:#007bff; color:white; border-radius:6px; cursor:pointer; }
+.day-card { border-left:4px solid #007bff; padding:12px; margin:10px 0; background:#fafafa; }
+pre { background:#111; color:#eee; padding:12px; overflow:auto; }
